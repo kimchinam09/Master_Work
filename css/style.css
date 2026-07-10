@@ -58,6 +58,7 @@ li {
   font-size: 46px;
   font-weight: 700;
   line-height: 1;
+  margin: 24px auto;
 }
 
 .header-section {
@@ -128,8 +129,8 @@ header.site-header {
   transition: width 0.25s ease;
 }
 
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link.active {
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
   color: var(--primary);
 }
 
@@ -443,6 +444,7 @@ header.site-header {
   font-size: 20px;
   font-weight: 800;
   padding: 18px;
+  transition: all 0.01s;
 }
 
 .featured .nav-link.active {
@@ -451,6 +453,9 @@ header.site-header {
   background: transparent;
 }
 
+.featured .nav-link:hover {
+    color: var(--primary);
+  }
 .project-img {
   border-radius: 6px;
   filter: grayscale(1);
