@@ -73,7 +73,7 @@ li {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1200;
+  max-width: 1200px;
 }
 
 /*========= HEADER ============*/
@@ -199,10 +199,6 @@ header.site-header {
   font-weight: 700;
   text-transform: uppercase;
   transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
-}
-
-.btn:hover {
-  transform: translateY(-2px);
 }
 
 .btn-accent {
@@ -453,17 +449,12 @@ header.site-header {
   background: transparent;
 }
 
-.featured .nav-link:hover {
-    color: var(--primary);
-  }
 .project-img {
-  border-radius: 6px;
-  filter: grayscale(1);
+  border-radius: 6px;  
   transition: 0.3s;
 }
 
-.project-img:hover {
-  filter: grayscale(0);
+.project-img:hover { 
   transform: translateY(-5px);
 }
 
