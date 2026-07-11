@@ -346,6 +346,23 @@ ul {
   font: 700 23px "inherit";
 }
 
+.feature-content0 {
+  flex: 1;
+  padding: 0;
+  text-align: left;
+}
+.feature-content0 h4 {
+  color: var(--heading);
+  padding: 30px 0 0 0 ;
+  font-size: 20px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.feature-content0 p {
+  margin: 0;
+  color: var(--body);
+}
 .feature-content {
   flex: 1;
   padding: 2rem;
