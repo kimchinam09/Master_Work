@@ -36,7 +36,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="mainNavbar">
-          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <ul class="navbar-nav ms-lg-auto">
             <li class="nav-item">
               <a class="nav-link active" href="./index.html">Home</a>
             </li>
@@ -60,14 +60,23 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <button class="search-btn" type="button" aria-label="Search">
+              <a href="#search" class="search-btn" aria-label="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
+              </a>
             </li>
             <li class="nav-item">
               <a class="btn btn-outline-accent" href="#contact">Schedule a Demo</a>
             </li>
           </ul>
+        </div>
+        <div id="search" class="pop-overlay">
+          <div class="popup">
+            <form action="http://127.0.0.1:5500/index.html" method="get" class="search-box d-sm-flex">
+              <input type="search" class="form-control" placeholder="Enter Keyword" name="s" required="required" autofocus>
+            <button type="submit" class="btn btn-accent">Search</button>
+            </form>
+            <a class="close" href="#close">x</a>
+          </div>
         </div>
       </nav>
     </div>
