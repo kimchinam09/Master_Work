@@ -100,10 +100,13 @@ header.site-header {
   color: var(--primary);
   font-size: 26px;
   font-weight: 700;
-  text-decoration: none;
-  letter-spacing: -1px;
 }
 
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: var(--primary);
+}
 .nav-item {
   display: inline-block;
   text-align: center;
@@ -347,7 +350,7 @@ header.site-header {
   border-radius: 6px;
   padding: 48px 32px;
   border: 1px solid var(--muted);
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;  
 }
 
 .services-card:hover {
