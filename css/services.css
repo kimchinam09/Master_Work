@@ -23,6 +23,14 @@ body {
   line-height: 1.6;
 }
 
+html {
+  background: white;
+  color: var(--body);
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -50,8 +58,10 @@ ul {
 
 .navbar-brand {
   color: var(--primary);
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -1px;
 }
 
 .navbar-brand i {
@@ -95,6 +105,12 @@ ul {
 
 .nav-link.active:hover::after {
   width: 20px;
+}
+
+.nav-link .fa-chevron-down{
+  font-size:10px;
+  margin-left:4px;
+  vertical-align:middle;
 }
 
 .dropdown-menu {
