@@ -99,9 +99,11 @@ header.site-header {
 .navbar-brand {
   color: var(--primary);
   font-size: 26px;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: -1px;
+  font-weight: 700; 
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  color: var(--primary);
 }
 
 .nav-item {
